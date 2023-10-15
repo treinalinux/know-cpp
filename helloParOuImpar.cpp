@@ -18,9 +18,11 @@ int main()
    for (int i = 0; i <= count; ++ i) {
        if (i%2==0)
        {
+           // Se for PAR imprime Hello,
            std::cout << "Hello, " << i << " == número é PAR..!" << std::endl;
            doisSegundos();
        } else {
+           // Se for ÍMPAR imprime World!
            std::cout << "World! " << i << " != número é ÍMPAR!" << std::endl;
            doisSegundos();
        }
